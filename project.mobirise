@@ -138,7 +138,7 @@
               "-webkit-justify-content": "left",
               "justify-content": "flex-end",
               "margin": "auto",
-              "margin-right": "1em",
+              "margin-right": "2em",
               "-webkit-align-items": "center",
               "align-items": "center",
               "overflow": "hidden",
