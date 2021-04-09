@@ -1628,15 +1628,7 @@ a {
 .cid-stU8TjoZe5 {
   padding-top: 7rem;
   padding-bottom: 7rem;
-  background-color: #f2f1eb;
-}
-.cid-stU8TjoZe5 .mbr-overlay {
-  padding: 0;
-  background: #cbddea;
-  opacity: 1;
-  transform: scale(3) skewX(25deg);
-  transform-origin: left bottom;
-  left: -100%;
+  background-color: #ffffff;
 }
 .cid-stU8TjoZe5 .mbr-section-subtitle {
   letter-spacing: 3.27px !important;
@@ -1662,11 +1654,15 @@ a {
 .cid-stUa2X2Bh3 {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-image: url("../../../assets/images/nuages1-2000x1333.jpg");
+  background-color: #c17b71;
 }
 .cid-stUa2X2Bh3 .mbr-overlay {
-  background: #006392;
-  opacity: 0.4;
+  padding: 0;
+  background: #5cb4cc;
+  opacity: 1;
+  transform: scale(3) skewX(25deg);
+  transform-origin: left bottom;
+  left: -100%;
 }
 .cid-stUa2X2Bh3 .mbr-section-head {
   margin-bottom: 60px;
@@ -1692,15 +1688,7 @@ a {
 .cid-seeBzNJhXH {
   padding-top: 10rem;
   padding-bottom: 6rem;
-  background-color: #cbddea;
-}
-.cid-seeBzNJhXH .mbr-overlay {
-  padding: 0;
-  background: #f2f1eb;
-  opacity: 1;
-  transform: scale(3) skewX(25deg);
-  transform-origin: left bottom;
-  left: -100%;
+  background-color: #ffffff;
 }
 .cid-seeBzNJhXH .row {
   flex-direction: row-reverse;
@@ -1778,7 +1766,10 @@ a {
   0% {
     transform: translate(0px, 0px);
   }
-  50% {
+  20% {
+    transform: translate(300px, -300px);
+  }
+  80% {
     transform: translate(300px, -300px);
   }
   100% {
@@ -1789,7 +1780,10 @@ a {
   0% {
     transform: translate(0px, 0px);
   }
-  50% {
+  20% {
+    transform: translate(240px, -240px);
+  }
+  80% {
     transform: translate(240px, -240px);
   }
   100% {
@@ -1800,7 +1794,10 @@ a {
   0% {
     transform: translate(0px, 0px);
   }
-  50% {
+  20% {
+    transform: translate(180px, -180px);
+  }
+  80% {
     transform: translate(180px, -180px);
   }
   100% {
@@ -1811,7 +1808,10 @@ a {
   0% {
     transform: translate(0px, 0px);
   }
-  50% {
+  20% {
+    transform: translate(120px, -120px);
+  }
+  80% {
     transform: translate(120px, -120px);
   }
   100% {
@@ -1822,7 +1822,10 @@ a {
   0% {
     transform: translate(0px, 0px);
   }
-  50% {
+  20% {
+    transform: translate(60px, -60px);
+  }
+  80% {
     transform: translate(60px, -60px);
   }
   100% {
@@ -1832,10 +1835,10 @@ a {
 .cid-stUiTkzqGy {
   padding-top: 135px;
   padding-bottom: 135px;
-  background-color: #cbddea;
+  background-color: #5cb4cc;
 }
 .cid-stUiTkzqGy .card-icon {
-  font-size: 56px;
+  font-size: 40px;
   color: #006392;
   transition: color 0.3s;
 }
@@ -1859,7 +1862,6 @@ a {
   display: inline-block;
   background: #006392;
   margin-bottom: 1.5rem;
-  transition: background 0.3s;
 }
 .cid-stUiTkzqGy .card {
   padding: 0!important;
@@ -1869,32 +1871,26 @@ a {
   padding: 4rem;
 }
 .cid-stUiTkzqGy .card-wrapper:hover {
-  background: #006392;
   transform: scale(1.05);
-}
-.cid-stUiTkzqGy .card-wrapper:hover .card-icon {
-  color: #5cb4cc;
-}
-.cid-stUiTkzqGy .card-wrapper:hover .line {
-  background: #5cb4cc;
+  shadow-box: -10px 10px 10px #000000;
 }
 .cid-stUiTkzqGy .card1 {
-  background: #5cb4cc;
+  background: #ffffff;
 }
 .cid-stUiTkzqGy .card2 {
-  background: #64b8ce;
+  background: #ffffff;
 }
 .cid-stUiTkzqGy .card3 {
-  background: #6cbbd1;
+  background: #ffffff;
 }
 .cid-stUiTkzqGy .card4 {
-  background: #73bfd3;
+  background: #ffffff;
 }
 .cid-stUiTkzqGy .card5 {
-  background: #7bc2d6;
+  background: #ffffff;
 }
 .cid-stUiTkzqGy .card6 {
-  background: #83c6d8;
+  background: #ffffff;
 }
 .cid-stUiTkzqGy .col-lg-x {
   -ms-flex: 0 0 20%;
@@ -1907,6 +1903,15 @@ a {
     flex: 0 0 100%;
     max-width: 100%;
   }
+}
+.cid-stUiTkzqGy .card-title,
+.cid-stUiTkzqGy .card-ico,
+.cid-stUiTkzqGy .line-wrap {
+  color: #5cb4cc;
+}
+.cid-stUiTkzqGy .mbr-text,
+.cid-stUiTkzqGy .card-link {
+  color: #5cb4cc;
 }
 .cid-stVaOVVXnH {
   padding-top: 3rem;
@@ -1985,6 +1990,7 @@ a {
 @media (max-width: 992px) {
   .cid-se82wgZHLl .social-media ul li {
     margin-left: 30px;
+    margin-right: 30px;
   }
   .cid-se82wgZHLl .container-fluid {
     padding: 0 2rem;
