@@ -2,7 +2,7 @@ body {
   font-family: Sora;
 }
 .display-1 {
-  font-family: 'Gill Sans';
+  font-family: 'Muli-Regular';
   font-size: 4.625rem;
   line-height: 1.075;
   letter-spacing: .15px;
@@ -11,7 +11,7 @@ body {
   font-size: 5.78125rem;
 }
 .display-2 {
-  font-family: 'Gill Sans';
+  font-family: 'Muli-Regular';
   font-size: 3.125rem;
   line-height: 1.075;
   letter-spacing: .46px;
@@ -20,7 +20,7 @@ body {
   font-size: 3.90625rem;
 }
 .display-4 {
-  font-family: 'Gill Sans';
+  font-family: 'Muli-Regular';
   font-size: 0.8rem;
   line-height: 2;
   letter-spacing: .37px;
@@ -29,7 +29,7 @@ body {
   font-size: 1rem;
 }
 .display-5 {
-  font-family: 'Gill Sans';
+  font-family: 'Muli-Regular';
   font-size: 1.875rem;
   line-height: 1.375;
   letter-spacing: .09px;
@@ -38,7 +38,7 @@ body {
   font-size: 2.34375rem;
 }
 .display-7 {
-  font-family: 'Gill Sans';
+  font-family: 'Muli-Regular';
   font-size: 1.2rem;
   line-height: 1.5;
   letter-spacing: .37px;
@@ -713,7 +713,7 @@ a:hover {
 }
 /* Scroll to top button*/
 .form-control {
-  font-family: 'Gill Sans';
+  font-family: 'Muli-Regular';
   font-size: 0.8rem;
   line-height: 2;
   letter-spacing: .37px;
@@ -723,7 +723,7 @@ a:hover {
   font-size: 1rem;
 }
 .form-control:-webkit-input-placeholder {
-  font-family: 'Gill Sans';
+  font-family: 'Muli-Regular';
   font-size: 0.8rem;
   line-height: 2;
   letter-spacing: .37px;
@@ -1530,9 +1530,9 @@ a {
   padding: 0;
 }
 .cid-seeAka30wu {
-  padding-top: 315px;
-  padding-bottom: 120px;
-  background-image: url("../../../assets/images/-logo-equateur-2020-fond-2000x1428.png");
+  padding-top: 345px;
+  padding-bottom: 210px;
+  background-image: url("../../../assets/images/fond-anim.gif");
 }
 .cid-seeAka30wu .animated-element {
   color: #cbddea;
@@ -1841,7 +1841,7 @@ a {
 .cid-stUiTkzqGy {
   padding-top: 135px;
   padding-bottom: 135px;
-  background-color: #5cb4cc;
+  background-image: url("../../../assets/images/3243929-min-2000x1125.jpg");
 }
 .cid-stUiTkzqGy .card-icon {
   font-size: 40px;
@@ -2001,7 +2001,7 @@ a {
     margin-right: 30px;
   }
   .cid-se82wgZHLl .container-fluid {
-    padding: 0 2rem;
+    padding: 2rem;
   }
   .cid-se82wgZHLl .menu-container {
     margin-bottom: 20px;
@@ -2039,6 +2039,17 @@ a {
 .cid-se82wgZHLl .mbr-text,
 .cid-se82wgZHLl .copyright-section {
   color: #ffffff;
+  text-align: right;
+}
+.cid-se82wgZHLl h6 {
+  font-size: 0.9em;
+}
+.cid-se82wgZHLl li {
+  font-size: 0.8em;
+}
+.cid-se82wgZHLl .socicon:hover {
+  color: #82b2e1 !important;
+  fill: #82b2e1 !important;
 }
 .cid-suED8VueBc {
   padding-top: 60px;
