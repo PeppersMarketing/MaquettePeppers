@@ -1199,7 +1199,7 @@ a {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #0a1c44;
+  background-color: #ffffff;
 }
 .cid-stTMSCRXMY button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -1488,7 +1488,8 @@ a {
 }
 @media (max-width: 576px) {
   .cid-stTMSCRXMY .menu-logo {
-    display: none;
+    width: 5%;
+    align-self: flex-start;
   }
   .cid-stTMSCRXMY .navbar {
     padding: 0;
@@ -1496,6 +1497,7 @@ a {
   .cid-stTMSCRXMY .menu-bottom {
     -webkit-flex-direction: column;
     flex-direction: column;
+    background-color: #006392;
   }
   .cid-stTMSCRXMY button.navbar-toggler {
     -webkit-align-self: center;
@@ -1530,9 +1532,14 @@ a {
   padding: 0;
 }
 .cid-seeAka30wu {
-  padding-top: 345px;
+  padding-top: 315px;
   padding-bottom: 210px;
   background-image: url("../../../assets/images/fond-anim.gif");
+}
+@media (max-width: 500px) {
+  .cid-seeAka30wu {
+    padding-top: 150px !important;
+  }
 }
 .cid-seeAka30wu .animated-element {
   color: #cbddea;
@@ -1541,6 +1548,13 @@ a {
   height: 5em;
 }
 @media (max-width: 500px) {
+  .cid-seeAka30wu .header1 {
+    padding-top: 100px !important;
+    background-size: cover !important;
+  }
+  .cid-seeAka30wu .tailleImage {
+    padding-top: 100px !important;
+  }
   .cid-seeAka30wu .textDecription {
     height: 10em;
   }
