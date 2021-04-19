@@ -1541,13 +1541,10 @@ a {
     padding-top: 150px !important;
   }
 }
-.cid-seeAka30wu .animated-element {
-  color: #cbddea;
-}
-.cid-seeAka30wu .textDecription {
-  height: 5em;
-}
 @media (max-width: 500px) {
+  .cid-seeAka30wu {
+    padding-bottom: 140px;
+  }
   .cid-seeAka30wu .header1 {
     padding-top: 100px !important;
     background-size: cover !important;
@@ -1558,6 +1555,12 @@ a {
   .cid-seeAka30wu .textDecription {
     height: 10em;
   }
+}
+.cid-seeAka30wu .animated-element {
+  color: #cbddea;
+}
+.cid-seeAka30wu .textDecription {
+  height: 5em;
 }
 .cid-seeAka30wu .typed-cursor {
   opacity: 1;
@@ -1751,6 +1754,15 @@ a {
   position: absolute;
   width: 100%;
   transition: 3s;
+}
+@media (max-width: 500px) {
+  .cid-seeBzNJhXH {
+    padding-top: 10px;
+    padding-bottom: 6px;
+  }
+  .cid-seeBzNJhXH .divImageAnimee {
+    display: none;
+  }
 }
 .cid-seeBzNJhXH .imageAnimees img:nth-child(5) {
   box-shadow: none;
