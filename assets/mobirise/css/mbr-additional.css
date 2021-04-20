@@ -1735,8 +1735,8 @@ a {
   color: #006392;
 }
 .cid-sv3JY3oR8J {
-  padding-top: 0px;
-  padding-bottom: 90px;
+  padding-top: 135px;
+  padding-bottom: 135px;
   background-color: #efefef;
 }
 .cid-sv3JY3oR8J .header-text {
@@ -1803,7 +1803,7 @@ a {
   color: #006392;
 }
 .cid-sv6M61NbJn {
-  padding-top: 165px;
+  padding-top: 75px;
   padding-bottom: 165px;
   background-image: url("../../../assets/images/mbr.jpg");
 }
@@ -1911,6 +1911,9 @@ a {
 .cid-sv6M61NbJn .card-inner2 {
   position: relative;
   z-index: 0;
+}
+.cid-sv6M61NbJn H2 {
+  color: #ffffff;
 }
 .cid-sv2EpwGS06 {
   padding-top: 75px;
