@@ -3,3 +3,13 @@
    font-display: swap;
    src: url('Muli-Regular/font.ttf');
 }
+@font-face {
+   font-family: 'Muli-Bold';
+   font-display: swap;
+   src: url('Muli-Bold/font.ttf');
+}
+@font-face {
+   font-family: 'Muli-ExtraBold';
+   font-display: swap;
+   src: url('Muli-ExtraBold/font.ttf');
+}
