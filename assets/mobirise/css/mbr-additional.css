@@ -1533,8 +1533,8 @@ a {
   padding: 0;
 }
 .cid-svcOwGoap7 {
-  padding-top: 300px;
-  padding-bottom: 90px;
+  padding-top: 450px;
+  padding-bottom: 270px;
   background-image: url("../../../assets/images/fond-anim.gif");
 }
 @media (max-width: 500px) {
@@ -1544,7 +1544,7 @@ a {
 }
 @media (max-width: 500px) {
   .cid-svcOwGoap7 {
-    padding-bottom: 60px;
+    padding-bottom: 180px;
   }
   .cid-svcOwGoap7 .header1 {
     padding-top: 100px !important;
