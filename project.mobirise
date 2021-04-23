@@ -84,10 +84,10 @@
     "favicon": "@PROJECT_PATH@/assets/images/navicon.gif",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
+    "sitemapSwitcherAuto": "on",
     "siteUrl": false,
     "gdpr": false,
-    "global_header_custom": "<link href=\"https://unpkg.com/aos@2.3.1/dist/aos.css\" rel=\"stylesheet\">\n\n <script type=\"text/javascript\" src=\"tarteaucitron/tarteaucitron.js\"></script>\n\n        <script type=\"text/javascript\">\n        tarteaucitron.init({\n    \t  \"privacyUrl\": \"\", /* Privacy policy url */\n\n    \t  \"hashtag\": \"#tarteaucitron\", /* Open the panel with this hashtag */\n    \t  \"cookieName\": \"tarteaucitron\", /* Cookie name */\n    \n    \t  \"orientation\": \"bottom\", /* Banner position (top - bottom) */\n       \n          \"groupServices\": false, /* Group services by category */\n                           \n    \t  \"showAlertSmall\": false, /* Show the small banner on bottom right */\n    \t  \"cookieslist\": false, /* Show the cookie list */\n                           \n          \"closePopup\": false, /* Show a close X on the banner */\n\n          \"showIcon\": true, /* Show cookie icon to manage cookies */\n          //\"iconSrc\": \"\", /* Optionnal: URL or base64 encoded image */\n          \"iconPosition\": \"BottomRight\", /* BottomRight, BottomLeft, TopRight and TopLeft */\n\n    \t  \"adblocker\": false, /* Show a Warning if an adblocker is detected */\n                           \n          \"DenyAllCta\" : true, /* Show the deny all button */\n          \"AcceptAllCta\" : true, /* Show the accept all button when highPrivacy on */\n          \"highPrivacy\": true, /* HIGHLY RECOMMANDED Disable auto consent */\n                           \n    \t  \"handleBrowserDNTRequest\": false, /* If Do Not Track == 1, disallow all */\n\n    \t  \"removeCredit\": false, /* Remove credit link */\n    \t  \"moreInfoLink\": true, /* Show more info link */\n\n          \"useExternalCss\": false, /* If false, the tarteaucitron.css file will be loaded */\n          \"useExternalJs\": false, /* If false, the tarteaucitron.js file will be loaded */\n\n    \t  //\"cookieDomain\": \".my-multisite-domaine.fr\", /* Shared cookie for multisite */\n                          \n          \"readmoreLink\": \"\", /* Change the default readmore link */\n\n          \"mandatory\": true, /* Show a message about mandatory cookies */\n        });\n\n  tarteaucitron.user.gtagUa = 'G-KYSSKDQRMK';\n        tarteaucitron.user.gtagMore = function () { /* add here your optionnal gtag() */ };\n        (tarteaucitron.job = tarteaucitron.job || []).push('gtag');\n\n        </script>\n<script defer src=\"/your-path-to-fontawesome/js/all.js\"></script> <!--load all styles -->\n",
+    "global_header_custom": "<link href=\"https://unpkg.com/aos@2.3.1/dist/aos.css\" rel=\"stylesheet\">\n\n <script type=\"text/javascript\" src=\"tarteaucitron/tarteaucitron.js\"></script>\n\n        <script type=\"text/javascript\">\n        tarteaucitron.init({\n    \t  \"privacyUrl\": \"\", /* Privacy policy url */\n\n    \t  \"hashtag\": \"#tarteaucitron\", /* Open the panel with this hashtag */\n    \t  \"cookieName\": \"tarteaucitron\", /* Cookie name */\n    \n    \t  \"orientation\": \"bottom\", /* Banner position (top - bottom) */\n       \n          \"groupServices\": false, /* Group services by category */\n                           \n    \t  \"showAlertSmall\": false, /* Show the small banner on bottom right */\n    \t  \"cookieslist\": false, /* Show the cookie list */\n                           \n          \"closePopup\": false, /* Show a close X on the banner */\n\n          \"showIcon\": true, /* Show cookie icon to manage cookies */\n          //\"iconSrc\": \"\", /* Optionnal: URL or base64 encoded image */\n          \"iconPosition\": \"BottomRight\", /* BottomRight, BottomLeft, TopRight and TopLeft */\n\n    \t  \"adblocker\": false, /* Show a Warning if an adblocker is detected */\n                           \n          \"DenyAllCta\" : true, /* Show the deny all button */\n          \"AcceptAllCta\" : true, /* Show the accept all button when highPrivacy on */\n          \"highPrivacy\": true, /* HIGHLY RECOMMANDED Disable auto consent */\n                           \n    \t  \"handleBrowserDNTRequest\": false, /* If Do Not Track == 1, disallow all */\n\n    \t  \"removeCredit\": false, /* Remove credit link */\n    \t  \"moreInfoLink\": true, /* Show more info link */\n\n          \"useExternalCss\": false, /* If false, the tarteaucitron.css file will be loaded */\n          \"useExternalJs\": false, /* If false, the tarteaucitron.js file will be loaded */\n\n    \t  //\"cookieDomain\": \".my-multisite-domaine.fr\", /* Shared cookie for multisite */\n                          \n          \"readmoreLink\": \"\", /* Change the default readmore link */\n\n          \"mandatory\": true, /* Show a message about mandatory cookies */\n        });\n\n  tarteaucitron.user.gtagUa = 'G-KYSSKDQRMK';\n        tarteaucitron.user.gtagMore = function () { /* add here your optionnal gtag() */ };\n        (tarteaucitron.job = tarteaucitron.job || []).push('gtag');\n\n        </script>\n<script defer src=\"js/all.js\"></script> <!--load all styles -->\n",
     "global_after_body": "<script src=\"https://unpkg.com/aos@2.3.1/dist/aos.js\"></script>\n<script>\n  AOS.init();\n</script>",
     "cookiesAlert": false,
     "global_footer_custom": "",
@@ -4178,22 +4178,6 @@
           "_params": {}
         },
         {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<section style=\"margin:none;\">    \n\n    <hr class=\"solid\">\n\n</section>",
-          "_customCSS": "\nhr.solid {\n  border-top: 0.5em solid #036393;\n  margin:0px;\n}\n",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_sourceTheme": "spiritm4",
-          "_JSplaceholders": [],
-          "_PHPplaceholders": [],
-          "_params": {},
-          "_anchor": "custom-html-2l"
-        },
-        {
           "alias": "mobirise4-blocks/components",
           "_isSecondary": true,
           "typeCompatible": "type",
@@ -4240,22 +4224,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<section style=\"margin:none;\">    \n\n    <hr class=\"solid\">\n\n</section>",
-          "_customCSS": "\nhr.solid {\n  border-top: 0.5em solid #036393;\n  margin:0px;\n}\n",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_sourceTheme": "spiritm4",
-          "_JSplaceholders": [],
-          "_PHPplaceholders": [],
-          "_params": {},
-          "_anchor": "custom-html-2f"
         },
         {
           "alias": false,
@@ -4494,22 +4462,6 @@
           "_params": {}
         },
         {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<section style=\"margin:none;\">    \n\n    <hr class=\"solid\">\n\n</section>",
-          "_customCSS": "\nhr.solid {\n  border-top: 0.5em solid #036393;\n  margin:0px;\n}\n",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_sourceTheme": "spiritm4",
-          "_JSplaceholders": [],
-          "_PHPplaceholders": [],
-          "_params": {},
-          "_anchor": "custom-html-2g"
-        },
-        {
           "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
@@ -4640,22 +4592,6 @@
           "_params": {}
         },
         {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<section style=\"margin:none;\">    \n\n    <hr class=\"solid\">\n\n</section>",
-          "_customCSS": "\nhr.solid {\n  border-top: 0.5em solid #036393;\n  margin:0px;\n}\n",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_sourceTheme": "spiritm4",
-          "_JSplaceholders": [],
-          "_PHPplaceholders": [],
-          "_params": {},
-          "_anchor": "custom-html-2h"
-        },
-        {
           "alias": false,
           "_styles": {
             "& when not (@fullScreen)": {
@@ -4704,22 +4640,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<section style=\"margin:none;\">    \n\n    <hr class=\"solid\">\n\n</section>",
-          "_customCSS": "\nhr.solid {\n  border-top: 0.5em solid #036393;\n  margin:0px;\n}\n",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_sourceTheme": "mobirise5",
-          "_JSplaceholders": [],
-          "_PHPplaceholders": [],
-          "_params": {},
-          "_anchor": "custom-html-2v"
         },
         {
           "alias": false,
@@ -4785,22 +4705,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<section style=\"margin:none;\">    \n\n    <hr class=\"solid\">\n\n</section>",
-          "_customCSS": "\nhr.solid {\n  border-top: 0.5em solid #036393;\n  margin:0px;\n}\n",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_sourceTheme": "directm4",
-          "_JSplaceholders": [],
-          "_PHPplaceholders": [],
-          "_params": {},
-          "_anchor": "custom-html-2x"
         },
         {
           "alias": "mobirise4-blocks/components",
@@ -4959,22 +4863,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<section style=\"margin:none;\">    \n\n    <hr class=\"solid\">\n\n</section>",
-          "_customCSS": "\nhr.solid {\n  border-top: 0.5em solid #036393;\n  margin:0px;\n}\n",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_sourceTheme": "spiritm4",
-          "_JSplaceholders": [],
-          "_PHPplaceholders": [],
-          "_params": {},
-          "_anchor": "custom-html-2i"
         },
         {
           "alias": false,
