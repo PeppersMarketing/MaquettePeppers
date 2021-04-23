@@ -4863,6 +4863,51 @@ a {
   border-top: 0.5em solid #036393;
   margin: 0px;
 }
+.cid-stVaOVVXnH {
+  padding-top: 7rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+.cid-stVaOVVXnH img {
+  width: 100%;
+  max-width: 140px;
+  margin: auto;
+}
+.cid-stVaOVVXnH .line {
+  height: 1px;
+  border: none;
+  line-height: 1;
+  background-image: linear-gradient(45deg, transparent, #e5e5e5, transparent);
+}
+.cid-stVaOVVXnH .mbr-section-title {
+  margin-bottom: 26px;
+  color: #006392;
+}
+.cid-stVaOVVXnH .mbr-section-subtitle {
+  margin-bottom: 16px;
+  color: #272727;
+  letter-spacing: 1.6px;
+  line-height: 1;
+  font-weight: 600;
+}
+.cid-stVaOVVXnH .mbr-section-head {
+  margin-bottom: 50px;
+}
+.cid-stVaOVVXnH .card_box {
+  margin-top: 30px;
+  transition: all 0.4s;
+  filter: grayscale(100%);
+  opacity: 0.5;
+}
+.cid-stVaOVVXnH .card_box:hover {
+  transform: scale(1.1);
+  filter: grayscale(0%);
+  opacity: 1;
+}
+#custom-html-2x hr.solid {
+  border-top: 0.5em solid #036393;
+  margin: 0px;
+}
 .cid-sv7TTM4KUx {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -5006,47 +5051,6 @@ a {
 #custom-html-2i hr.solid {
   border-top: 0.5em solid #036393;
   margin: 0px;
-}
-.cid-stVaOVVXnH {
-  padding-top: 7rem;
-  padding-bottom: 6rem;
-  background-color: #ffffff;
-}
-.cid-stVaOVVXnH img {
-  width: 100%;
-  max-width: 140px;
-  margin: auto;
-}
-.cid-stVaOVVXnH .line {
-  height: 1px;
-  border: none;
-  line-height: 1;
-  background-image: linear-gradient(45deg, transparent, #e5e5e5, transparent);
-}
-.cid-stVaOVVXnH .mbr-section-title {
-  margin-bottom: 26px;
-  color: #006392;
-}
-.cid-stVaOVVXnH .mbr-section-subtitle {
-  margin-bottom: 16px;
-  color: #272727;
-  letter-spacing: 1.6px;
-  line-height: 1;
-  font-weight: 600;
-}
-.cid-stVaOVVXnH .mbr-section-head {
-  margin-bottom: 50px;
-}
-.cid-stVaOVVXnH .card_box {
-  margin-top: 30px;
-  transition: all 0.4s;
-  filter: grayscale(100%);
-  opacity: 0.5;
-}
-.cid-stVaOVVXnH .card_box:hover {
-  transform: scale(1.1);
-  filter: grayscale(0%);
-  opacity: 1;
 }
 .cid-se82wgZHLl {
   padding-top: 15px;

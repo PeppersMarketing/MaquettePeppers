@@ -78,7 +78,7 @@
       }
     ],
     "imageResize": false,
-    "uniqCompNum": 105,
+    "uniqCompNum": 106,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/navicon.gif",
@@ -4722,6 +4722,87 @@
           "_anchor": "custom-html-2v"
         },
         {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            "img": {
+              "width": "100%",
+              "max-width": "140px",
+              "margin": "auto"
+            },
+            ".line": {
+              "height": "1px",
+              "border": "none",
+              "line-height": "1",
+              "background-image": "linear-gradient(45deg, transparent, #e5e5e5, transparent)"
+            },
+            "& when (@showLineTop)": {
+              ".images-container": {
+                "margin-top": "120px"
+              }
+            },
+            "& when (@showLineBot)": {
+              ".images-container": {
+                "margin-bottom": "120px"
+              }
+            },
+            ".mbr-section-title": {
+              "margin-bottom": "26px",
+              "color": "#006392"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "16px",
+              "color": "@primaryColor",
+              "letter-spacing": "1.6px",
+              "line-height": "1",
+              "font-weight": "600"
+            },
+            ".mbr-section-head": {
+              "margin-bottom": "50px"
+            },
+            ".card_box": {
+              "margin-top": "30px",
+              "transition": "all 0.4s",
+              "filter": "grayscale(100%)",
+              "opacity": "0.5"
+            },
+            ".card_box:hover": {
+              "transform": "scale(1.1)",
+              "filter": "grayscale(0%)",
+              "opacity": "1"
+            }
+          },
+          "_name": "clients1",
+          "_sourceTheme": "firmm4",
+          "_customHTML": "<section class=\"firmm4_clients1\" group=\"Clients\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"7\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Line Top\" name=\"showLineTop\">\n        <input type=\"checkbox\" title=\"Line Bottom\" name=\"showLineBot\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"range\" inline title=\"Items\" name=\"items\" min=\"1\" max=\"14\" value=\"12\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    \n    <div class=\"line\" mbr-if=\"showLineTop\"></div>\n    \n    <div class=\"images-container\" mbr-class=\"{'container-fluid':fullWidth, container:fullWidth==false}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-lg-10 col-md-9 col-sm-10 col-12\">\n                <div class=\"mbr-section-head text-center\">\n                    <h4 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubTitle\" data-app-selector=\".mbr-section-subtitle\">CLIENTS</h4>\n                    <h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                        <b>NOS CLIENTS</b></h3>\n                    <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis asperiores fugit laudantium, ullam nulla modi nesciunt quaerat id fugiat eaque. Ad iusto placeat minus quis optio, corporis, vel laborum perferendis!</p>\n                </div>\n            </div>\n        </div>\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-2 col-6 card_box\">\n                <img src=\"@PROJECT_PATH@/assets/images/lesaffre-280x280.png\" alt>\n            </div>\n            <div class=\"col-md-2 col-6 card_box\" mbr-if=\"items > 1\">\n                <img src=\"@PROJECT_PATH@/assets/images/logo-amedee-280x280.png\" alt>\n            </div>\n            <div class=\"col-md-2 col-6 card_box\" mbr-if=\"items > 2\">\n                <img src=\"@PROJECT_PATH@/assets/images/logo-apollo-280x280.jpg\" alt>\n            </div>\n            <div class=\"col-md-2 col-6 card_box\" mbr-if=\"items > 3\">\n                <img src=\"@PROJECT_PATH@/assets/images/logo-arjo-280x280.jpg\" alt>\n            </div>\n            <div class=\"col-md-2 col-6 card_box\" mbr-if=\"items > 4\">\n                <img src=\"@PROJECT_PATH@/assets/images/logo-chaussexpo-280x280.jpg\" alt>\n            </div>\n            <div class=\"col-md-2 col-6 card_box\" mbr-if=\"items > 5\">\n                <img src=\"@PROJECT_PATH@/assets/images/logo-juridif-280x280.jpg\" alt>\n            </div>\n            <div class=\"col-md-2 col-6 card_box\" mbr-if=\"items > 6\">\n                <img src=\"@PROJECT_PATH@/assets/images/logo-marrenon-280x280.jpg\" alt>\n            </div>\n            <div class=\"col-md-2 col-6 card_box\" mbr-if=\"items > 7\">\n                <img src=\"@PROJECT_PATH@/assets/images/logo-novotel-280x280.png\" alt>\n            </div>\n            <div class=\"col-md-2 col-6 card_box\" mbr-if=\"items > 8\">\n                <img src=\"@PROJECT_PATH@/assets/images/logo-territoire-280x280.jpg\" alt>\n            </div>\n            <div class=\"col-md-2 col-6 card_box\" mbr-if=\"items > 9\">\n                <img src=\"@PROJECT_PATH@/assets/images/logourbanistica-280x280.png\" alt>\n            </div>\n            <div class=\"col-md-2 col-6 card_box\" mbr-if=\"items > 10\">\n                <img src=\"@PROJECT_PATH@/assets/images/sociatax.png.jpg\" alt>\n            </div>\n            <div class=\"col-md-2 col-6 card_box\" mbr-if=\"items > 11\">\n                 <img src=\"@PROJECT_PATH@/assets/images/neopak.png.jpg\" alt>\n            </div>\n            <div class=\"col-md-2 col-6 card_box\" mbr-if=\"items > 12\">\n                 <img src=\"@PROJECT_PATH@/assets/images/logourbanistica-280x280.png\" alt>\n            </div>\n            <div class=\"col-md-2 col-6 card_box\" mbr-if=\"items > 13\">\n                 <img src=\"@PROJECT_PATH@/assets/images/logourbanistica-280x280.png\" alt>\n            </div>\n        </div>\n    </div>\n    \n    <div class=\"line\" mbr-if=\"showLineBot\"></div>\n    \n</section>",
+          "_cid": "stVaOVVXnH",
+          "_anchor": "clients1-8",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<section style=\"margin:none;\">    \n\n    <hr class=\"solid\">\n\n</section>",
+          "_customCSS": "\nhr.solid {\n  border-top: 0.5em solid #036393;\n  margin:0px;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "directm4",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-2x"
+        },
+        {
           "alias": "mobirise4-blocks/components",
           "_isSecondary": true,
           "typeCompatible": "type",
@@ -4894,71 +4975,6 @@
           "_PHPplaceholders": [],
           "_params": {},
           "_anchor": "custom-html-2i"
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "background-color": "@bgColor",
-            "img": {
-              "width": "100%",
-              "max-width": "140px",
-              "margin": "auto"
-            },
-            ".line": {
-              "height": "1px",
-              "border": "none",
-              "line-height": "1",
-              "background-image": "linear-gradient(45deg, transparent, #e5e5e5, transparent)"
-            },
-            "& when (@showLineTop)": {
-              ".images-container": {
-                "margin-top": "120px"
-              }
-            },
-            "& when (@showLineBot)": {
-              ".images-container": {
-                "margin-bottom": "120px"
-              }
-            },
-            ".mbr-section-title": {
-              "margin-bottom": "26px",
-              "color": "#006392"
-            },
-            ".mbr-section-subtitle": {
-              "margin-bottom": "16px",
-              "color": "@primaryColor",
-              "letter-spacing": "1.6px",
-              "line-height": "1",
-              "font-weight": "600"
-            },
-            ".mbr-section-head": {
-              "margin-bottom": "50px"
-            },
-            ".card_box": {
-              "margin-top": "30px",
-              "transition": "all 0.4s",
-              "filter": "grayscale(100%)",
-              "opacity": "0.5"
-            },
-            ".card_box:hover": {
-              "transform": "scale(1.1)",
-              "filter": "grayscale(0%)",
-              "opacity": "1"
-            }
-          },
-          "_name": "clients1",
-          "_sourceTheme": "firmm4",
-          "_customHTML": "<section class=\"firmm4_clients1\" group=\"Clients\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"7\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Line Top\" name=\"showLineTop\">\n        <input type=\"checkbox\" title=\"Line Bottom\" name=\"showLineBot\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"range\" inline title=\"Items\" name=\"items\" min=\"1\" max=\"14\" value=\"12\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    \n    <div class=\"line\" mbr-if=\"showLineTop\"></div>\n    \n    <div class=\"images-container\" mbr-class=\"{'container-fluid':fullWidth, container:fullWidth==false}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-lg-10 col-md-9 col-sm-10 col-12\">\n                <div class=\"mbr-section-head text-center\">\n                    <h4 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubTitle\" data-app-selector=\".mbr-section-subtitle\">CLIENTS</h4>\n                    <h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                        <b>NOS CLIENTS</b></h3>\n                    <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis asperiores fugit laudantium, ullam nulla modi nesciunt quaerat id fugiat eaque. Ad iusto placeat minus quis optio, corporis, vel laborum perferendis!</p>\n                </div>\n            </div>\n        </div>\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-2 col-6 card_box\">\n                <img src=\"@PROJECT_PATH@/assets/images/lesaffre-280x280.png\" alt>\n            </div>\n            <div class=\"col-md-2 col-6 card_box\" mbr-if=\"items > 1\">\n                <img src=\"@PROJECT_PATH@/assets/images/logo-amedee-280x280.png\" alt>\n            </div>\n            <div class=\"col-md-2 col-6 card_box\" mbr-if=\"items > 2\">\n                <img src=\"@PROJECT_PATH@/assets/images/logo-apollo-280x280.jpg\" alt>\n            </div>\n            <div class=\"col-md-2 col-6 card_box\" mbr-if=\"items > 3\">\n                <img src=\"@PROJECT_PATH@/assets/images/logo-arjo-280x280.jpg\" alt>\n            </div>\n            <div class=\"col-md-2 col-6 card_box\" mbr-if=\"items > 4\">\n                <img src=\"@PROJECT_PATH@/assets/images/logo-chaussexpo-280x280.jpg\" alt>\n            </div>\n            <div class=\"col-md-2 col-6 card_box\" mbr-if=\"items > 5\">\n                <img src=\"@PROJECT_PATH@/assets/images/logo-juridif-280x280.jpg\" alt>\n            </div>\n            <div class=\"col-md-2 col-6 card_box\" mbr-if=\"items > 6\">\n                <img src=\"@PROJECT_PATH@/assets/images/logo-marrenon-280x280.jpg\" alt>\n            </div>\n            <div class=\"col-md-2 col-6 card_box\" mbr-if=\"items > 7\">\n                <img src=\"@PROJECT_PATH@/assets/images/logo-novotel-280x280.png\" alt>\n            </div>\n            <div class=\"col-md-2 col-6 card_box\" mbr-if=\"items > 8\">\n                <img src=\"@PROJECT_PATH@/assets/images/logo-territoire-280x280.jpg\" alt>\n            </div>\n            <div class=\"col-md-2 col-6 card_box\" mbr-if=\"items > 9\">\n                <img src=\"@PROJECT_PATH@/assets/images/logourbanistica-280x280.png\" alt>\n            </div>\n            <div class=\"col-md-2 col-6 card_box\" mbr-if=\"items > 10\">\n                <img src=\"@PROJECT_PATH@/assets/images/sociatax.png.jpg\" alt>\n            </div>\n            <div class=\"col-md-2 col-6 card_box\" mbr-if=\"items > 11\">\n                 <img src=\"@PROJECT_PATH@/assets/images/neopak.png.jpg\" alt>\n            </div>\n            <div class=\"col-md-2 col-6 card_box\" mbr-if=\"items > 12\">\n                 <img src=\"@PROJECT_PATH@/assets/images/logourbanistica-280x280.png\" alt>\n            </div>\n            <div class=\"col-md-2 col-6 card_box\" mbr-if=\"items > 13\">\n                 <img src=\"@PROJECT_PATH@/assets/images/logourbanistica-280x280.png\" alt>\n            </div>\n        </div>\n    </div>\n    \n    <div class=\"line\" mbr-if=\"showLineBot\"></div>\n    \n</section>",
-          "_cid": "stVaOVVXnH",
-          "_anchor": "clients1-8",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
         },
         {
           "alias": false,
