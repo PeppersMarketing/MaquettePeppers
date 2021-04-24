@@ -454,7 +454,7 @@ var tarteaucitron = {
                 if (tarteaucitron.parameters.showIcon === true) {
                     html += '<div id="tarteaucitronIcon" class="tarteaucitronIcon' + tarteaucitron.parameters.iconPosition + '">';
                     html += '   <button type="button" id="tarteaucitronManager">';
-                    html += '       <img src="https://peppersmarketing.github.io/MaquettePeppers/tarteaucitron/Cookies.png" alt="Cookies" title="Cookies">';
+                    html += '       <img src="https://peppersmarketing.github.io/MaquettePeppers/tarteaucitron/Cookies2.png" alt="Cookies" title="Cookies">';
                     html += '   </button>';
                     html += '</div>';
                 }
