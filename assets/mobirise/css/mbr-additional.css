@@ -4422,6 +4422,43 @@ a {
 .cid-svcnmdVYdv .nav-link {
   padding: 0;
 }
+.cid-svvOzZuzvt {
+  padding-top: 300px;
+  padding-bottom: 150px;
+  background-image: url("../../../assets/images/fondbleu-2-min-1-2000x1428.jpg");
+}
+.cid-svvOzZuzvt .paragraphe {
+  color: white;
+  font-size: 15px;
+}
+.cid-svvOzZuzvt .mbr-arrow {
+  background: #232323 !important;
+  opacity: .7;
+}
+.cid-svvOzZuzvt .mbr-arrow i {
+  color: #ffffff !important;
+}
+.cid-svvOzZuzvt .underline .line {
+  width: 2rem;
+  height: 1px;
+  background: #ffffff;
+  display: inline-block;
+}
+.cid-svvOzZuzvt .animated-element,
+.cid-svvOzZuzvt .typed-cursor {
+  color: #cbddea;
+}
+.cid-svvOzZuzvt .animated-element {
+  border-bottom: 5px solid #82b2e1;
+}
+@media (max-width: 767px) {
+  .cid-svvOzZuzvt .typed-text {
+    text-align: center;
+  }
+}
+.cid-svvOzZuzvt P {
+  color: #060424;
+}
 .cid-suFaI76fno {
   padding-top: 150px;
   padding-bottom: 150px;
