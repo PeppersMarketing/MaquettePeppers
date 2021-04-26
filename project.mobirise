@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "Formulaire_Contact.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "spiritm4",
       "title": "SpiritM4",
@@ -78,7 +78,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 112,
+    "uniqCompNum": 113,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/navicon.gif",
@@ -4225,6 +4225,181 @@
           "_anchor": "header5-2w",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "steps1",
+          "_sourceTheme": "marketm4",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card": {
+              "width": "100%"
+            },
+            "& when (@addBlockAmount = \"1\")": {
+              ".card:nth-child(odd)": {
+                ".add__block": {
+                  "display": "none"
+                }
+              }
+            },
+            "& when (@addBlockAmount = \"2\")": {
+              ".card:nth-child(even)": {
+                ".add__block": {
+                  "display": "none"
+                }
+              }
+            },
+            "& when (@addBlockAmount = \"4\")": {
+              ".card": {
+                ".add__block": {
+                  "display": "none"
+                }
+              }
+            },
+            ".add__block": {
+              "margin-top": "35px",
+              ".add__block_image": {
+                "width": "170px",
+                "img": {
+                  "width": "100%",
+                  "border-radius": "6px"
+                }
+              },
+              ".add__block_content": {
+                "margin-left": "30px",
+                "max-width": "270px"
+              },
+              ".add__block_title": {
+                "margin-bottom": "0"
+              },
+              ".add__block_text": {
+                "margin-top": "15px",
+                "margin-bottom": "0",
+                "color": "#919dab"
+              }
+            },
+            ".row": {
+              "margin": "0"
+            },
+            ".mbr-section-title": {
+              "margin-bottom": "0"
+            },
+            ".step-container": {
+              "margin-top": "25px"
+            },
+            ".padding__bot": {
+              "padding-bottom": "50px"
+            },
+            ".step-text-content": {
+              "padding-top": "10px"
+            },
+            ".mbr-step-title": {
+              "margin-bottom": "0",
+              "font-weight": "500",
+              "color": "#006392"
+            },
+            ".mbr-step-text": {
+              "margin-bottom": "0",
+              "margin-top": "20px",
+              "color": "#006392"
+            },
+            ".mbr-section-btn": {
+              "margin-top": "20px",
+              ".btn": {
+                "font-weight": "500"
+              }
+            },
+            ".step": {
+              "display": "flex",
+              "width": "(@stepSize * 2px)",
+              "height": "(@stepSize * 2px)",
+              "font-size": "~\"calc((@{stepSize}px) - 2px)\"",
+              "margin-bottom": "0",
+              "border-radius": "50%",
+              "border": "2px solid @lineColor",
+              "background-color": "@lineColor",
+              "font-weight": "500",
+              "color": "#ffffff",
+              "& when (@stepSize > 24px)": {
+                "@media (max-width: 767px)": {
+                  "width": "48px",
+                  "height": "48px",
+                  "font-size": "24px"
+                }
+              }
+            },
+            "@media (min-width: 400px)": {
+              ".add__block": {
+                "display": "flex"
+              },
+              ".step-element": {
+                "display": "flex"
+              },
+              ".mbr-section-btn": {
+                "margin-top": "20px",
+                "margin-left": "~\"calc((@{stepSize} * 2px) + 70px)\"",
+                ".btn": {
+                  "margin-left": "0"
+                }
+              },
+              ".separline": {
+                "position": "relative",
+                "&:after": {
+                  "top": "(@stepSize * 2px)",
+                  "left": "(@stepSize - 2px)",
+                  "position": "absolute",
+                  "content": "\"\"",
+                  "width": "2px",
+                  "height": "~\"calc(100% - (@{stepSize}px) * 2)\"",
+                  "background-color": "@lineColor",
+                  "& when (@stepSize > 24px)": {
+                    "@media (max-width: 767px)": {
+                      "top": "52px",
+                      "left": "22px",
+                      "height": "~\"calc(100% - 56px)\""
+                    }
+                  }
+                }
+              },
+              ".step-text-content": {
+                "margin-left": "70px"
+              }
+            },
+            "@media (max-width: 400px)": {
+              ".add__block_title": {
+                "margin-top": "30px"
+              },
+              ".add__block": {
+                ".add__block_content": {
+                  "margin-left": "0"
+                }
+              }
+            },
+            "#triangle-code": {
+              "display": "inline-block",
+              "height": "0",
+              "width": "0",
+              "border-top": "1.6em solid #006392",
+              "border-right": "1.2em solid transparent",
+              "border-left": "1.2em solid transparent"
+            }
+          },
+          "_customHTML": "<section class=\"steps1 marketm4_steps1\" group=\"Steps\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n\t\t<input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n\t\t<input type=\"checkbox\" title=\"Step Title\" name=\"showStepTitle\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Step Text\" name=\"showStepText\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Show Button\" name=\"showButtons\">\n\t\t<input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#006392\">\n\t\t<select title=\"Steps Count\" name=\"stepsAmount\">\n\t\t\t<option value=\"1\">1</option>\n\t\t\t<option value=\"2\">2</option>\n\t\t\t<option value=\"3\">3</option>\n\t\t\t<option value=\"4\" selected=\"\">4</option>\n\t\t\t<option value=\"5\">5</option>\n\t\t\t<option value=\"6\">6</option>\n\t\t\t<option value=\"7\">7</option>\n\t\t</select>\n\t\t<input type=\"range\" inline=\"\" title=\"Step Size\" name=\"stepSize\" min=\"10\" max=\"30\" step=\"1\" value=\"20\">\n\t\t<select title=\"Show Image\" name=\"addBlockAmount\">\n\t\t\t<option value=\"1\" selected=\"\">odd</option>\n\t\t\t<option value=\"2\">even</option>\n\t\t\t<option value=\"3\">all</option>\n\t\t\t<option value=\"4\">none</option>\n\t\t</select>\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax=\"\">\n\t\t\t<input type=\"image\" title=\"Image\" value=\"\" parallax=\"\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#f5f5f5\" selected=\"\">\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked=\"\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n\t\t<input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n\t<div class=\"container\">\n\t\t<div class=\"row justify-content-center\">\n\t\t\t<div class=\"col-xl-10 col-lg-11\">\n\t\t\t\t<h2 class=\"mbr-section-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n\t\t\t\t\tSteps\n\t\t\t\t</h2>\n\n\t\t\t\t<div class=\"step-container\">\n\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t<div class=\"card\" mbr-class=\"{'separline padding__bot': stepsAmount > '1'}\">\n\t\t\t\t\t\t\t<div class=\"step-element\">\n\t\t\t\t\t\t\t\t<div class=\"step-wrapper\">\n\t\t\t\t\t\t\t\t\t<h3 class=\"step align-items-center justify-content-center\" data-app-selector=\".step\"></h3>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"step-text-content\">\n\t\t\t\t\t\t\t\t\t<h4 class=\"mbr-step-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-step-title\" mbr-if=\"showStepTitle\"><b>POURQUOI ?</b></h4>\n\t\t\t\t\t\t\t\t\t<p class=\"mbr-step-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-step-text\" mbr-if=\"showStepText\">Chez Peppers nous savons pourquoi nous faisons les choses et nous nous posons toujours cette question avant d’entreprendre.\n<br>\n<br>Nous savons que le succès d’une entreprise repose sur la qualité de sa relation client et de l’attention qu’elle porte à ses besoins. \n<br>Nous investissons dans l’amélioration des relations que les marques doivent entrenir durablement avec leurs clients. \n<br>\n<br>Pourquoi nous faisons cela ?\n<br>\n<br>Parce qu’il faut un niveau expertise et d’autonomie suffisant pour maîtriser ses propres données et améliorer sa connaissance client.\n<br>\n<br>Cela passe par une bonne combinaison entre le magasin physique et les solutions digitales et nous restituons aux marques la propriété de leurs données. &nbsp;&nbsp;<br></p>\n\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"card\" mbr-if=\"stepsAmount > 1\" mbr-class=\"{'separline padding__bot': stepsAmount > '2'}\">\n\t\t\t\t\t\t\t<div class=\"step-element\">\n\t\t\t\t\t\t\t\t<div class=\"step-wrapper\">\n\t\t\t\t\t\t\t\t\t<h3 class=\"step align-items-center justify-content-center\" data-app-selector=\".step\"></h3>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"step-text-content\">\n\t\t\t\t\t\t\t\t\t<h4 class=\"mbr-step-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-step-title\" mbr-if=\"showStepTitle\"><b>COMMENT ?</b></h4>\n\t\t\t\t\t\t\t\t\t<p class=\"mbr-step-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-step-text\" mbr-if=\"showStepText\">Nous nous engageons aux côtés de nos clients dans la co-construction de stratégies marketing et nous les accompagnons dans le déploiement jusqu’à la délivrance des résultats. \n<br>\n<br>Nous posons les bases d’une démarche cross-canal en laissant place à l’expérience du consommateur.\n<br>\n<br>En unifiant les canaux, nous créons une seule conversation.&nbsp;<br></p>\n\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"card\" mbr-if=\"stepsAmount > 2\" mbr-class=\"{'separline padding__bot': stepsAmount > '3'}\">\n\t\t\t\t\t\t\t<div class=\"step-element\">\n\t\t\t\t\t\t\t\t<div class=\"step-wrapper\">\n\t\t\t\t\t\t\t\t\t<h3 class=\"step align-items-center justify-content-center\" data-app-selector=\".step\"></h3>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"step-text-content\">\n\t\t\t\t\t\t\t\t\t<h4 class=\"mbr-step-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-step-title\" mbr-if=\"showStepTitle\"><b>QUOI ?</b></h4>\n\t\t\t\t\t\t\t\t\t<p class=\"mbr-step-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-step-text\" mbr-if=\"showStepText\">Le marketing est un processus qui instaure le changement mais faire ne suffit pas.\n<br>Notre plateforme Équateur est un écosystème complet de services marketing à forte valeur ajoutée, innovant et évolutif.  \n<br>\n<br>Elle ne requiert ni installation, ni développement. \n<br>Vous n’investissez pas et vous vous focalisez sur ce qui fait l’essentiel de votre métier : Vos produits et vos clients. <br>\n<br>Quand les réponses à vos problématiques sont des fonctionnalités, Équateur vous apporte les solutions, c’est simple.\n<br><br>Conçu comme une agence embarquée, notre écosystème saura vous accompagner dans les différents stades de votre processus de transformation digitale.&nbsp;<br></p>\n\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"card\" mbr-if=\"stepsAmount > 3\" mbr-class=\"{'separline padding__bot': stepsAmount > '4'}\">\n                            <div class=\"step-element\">\n\t\t\t\t\t\t\t\t<div class=\"step-wrapper\">\n\t\t\t\t\t\t\t\t\t<div id=\"triangle-code\" class=\" align-items-center justify-content-center\" data-app-selector=\".step\"></div>\n\t\t\t\t\t\t\t\t</div>\n                            </div>\n\n\t\t\t\t\t\t</div>\n</div>\n                      \n                        \n                        \n\t\t\t\t\t\t\n\t\t\t\t\t<div class=\"mbr-section-btn\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n\t\t\t\t\t\t<a class=\"btn btn-md btn-success\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Learn More</a>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "steps1-34",
+          "_isUserblock": true,
+          "_cid": "svFMwTpVdH",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
