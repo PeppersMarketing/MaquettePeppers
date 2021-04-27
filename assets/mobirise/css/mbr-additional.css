@@ -3525,6 +3525,7 @@ a {
 }
 .cid-svoxcUz253 h6 {
   font-size: 1em;
+  
 }
 .cid-svoxcUz253 li {
   font-size: 0.9em;
@@ -3533,17 +3534,19 @@ a {
   color: #82b2e1 !important;
   fill: #82b2e1 !important;
 }
-.cid-svoxcUz253 .btn {
+.cid-svoxcUz253 .btn, .cid-se82wgZHLl .btn, .cid-sviwqlqQfI .btn, .cid-sviiTJg6xC .btn{
   background-color: rgba(255, 255, 255, 0.9) !important;
   color: #016391;
-  padding-top: 0.8em;
-  padding-bottom: 0.8em;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
   border-radius: 5px;
   font-size: 0.8em;
-  padding-right: 1.2em;
-  padding-left: 1.2em;
+  padding-right: 1em;
+  padding-left: 1em;
+  font-family: 'Muli';
+  border: solid transparent 2px;
 }
-.cid-svoxcUz253 .btn:hover {
+.cid-svoxcUz253 .btn:hover ,.cid-se82wgZHLl .btn:hover, .cid-sviwqlqQfI .btn:hover, .cid-sviiTJg6xC .btn:hover{
   background-color: #016391 !important;
   color: white;
   border: solid white 2px;
@@ -5170,11 +5173,13 @@ a {
   color: #ffffff;
   text-align: right;
 }
-.cid-se82wgZHLl h6 {
+.cid-se82wgZHLl h6, .cid-sviiTJg6xC h6, .cid-sviwqlqQfI h6 {
   font-size: 1em;
+  font-family: 'Muli';
 }
-.cid-se82wgZHLl li {
+.cid-se82wgZHLl li, .cid-sviiTJg6xC li, .cid-sviwqlqQfI li  {
   font-size: 0.9em;
+  font-family: 'Muli';
 }
 .cid-se82wgZHLl .socicon:hover {
   color: #82b2e1 !important;
