@@ -44,8 +44,8 @@ body {
   line-height: 1.5;
   letter-spacing: .37px;
 }
-.display-7 > .mbr-iconfont {
-  font-size: 1.5rem;
+.display-7  .mbr-iconfont {
+  font-size: 1rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
