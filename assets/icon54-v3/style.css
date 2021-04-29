@@ -2599,10 +2599,10 @@
 .icon54-v3-upload::before {
     content: '\ec59';
 }
-.icon54-v3-usb-2.0::before {
+.icon54-v3-usb-2\.0::before {
     content: '\ec5a';
 }
-.icon54-v3-usb-3.0::before {
+.icon54-v3-usb-3\.0::before {
     content: '\ec5b';
 }
 .icon54-v3-usb-cable::before {

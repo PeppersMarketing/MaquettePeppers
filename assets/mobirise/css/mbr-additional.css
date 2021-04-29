@@ -88,6 +88,8 @@ body {
 .btn {
   padding: 14px 40px;
   border-radius: 0;
+  font-family: 'Muli';
+  border: 5px solidtransparent;
 }
 .btn-sm {
   padding: 12px 31px;
@@ -2207,6 +2209,13 @@ a {
   border-right: 1.2em solid transparent;
   border-left: 1.2em solid transparent;
 }
+
+.cid-svvTLE2qJJ .card-inner{
+  height: 350px;
+  border-radius: 5px;
+  box-shadow: 7px 7px 9px 1px  #05435f !important;
+}
+
 .cid-svvTLE2qJJ {
   padding-top: 135px;
   padding-bottom: 225px;
@@ -2243,11 +2252,12 @@ a {
 @media (max-width: 992px) {
   .cid-svvTLE2qJJ .card {
     margin-bottom: 3rem;
+   
   }
 }
 @media (max-width: 767px) {
   .cid-svvTLE2qJJ .card-inner {
-    padding: 4rem 1rem 0.5rem;
+    padding: 2.3rem;
     text-align: center;
   }
 }
@@ -2256,7 +2266,7 @@ a {
     padding: 0 1rem;
   }
   .cid-svvTLE2qJJ .card-inner {
-    padding: 5rem 2.5rem 1.5rem;
+    padding:  2.3rem;
   }
 }
 .cid-svvTLE2qJJ .card-inner {
@@ -2277,9 +2287,23 @@ a {
 }
 .cid-svvTLE2qJJ .card:hover .mbr-iconfont-1 {
   color: #82b2e1;
+
 }
+.ecranStatBlanc{
+  display:none;
+}
+
+.cid-svvTLE2qJJ .card:hover .ecranStatBlanc{  
+  display:block;  
+}
+
+.cid-svvTLE2qJJ .card:hover .ecranStatBleu{  
+    display:none;
+}
+
 .cid-svvTLE2qJJ .card:hover .mbr-iconfont-2 {
   opacity: 1;
+
 }
 .cid-svvTLE2qJJ .card:hover .card-inner {
   box-shadow: 1px 2px 15px 5px rgba(219, 219, 219, 0.11);
@@ -2718,3 +2742,4 @@ a {
   color: white;
   border: solid white 2px;
 }
+
