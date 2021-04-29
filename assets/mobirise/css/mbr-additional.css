@@ -1322,6 +1322,7 @@ a {
 .cid-svcnmdVYdv .nav-item a {
   padding: 0.5rem 0 !important;
   margin: 0 0.5rem !important;
+  font-weight: bold !important;
 }
 .cid-svcnmdVYdv .dropdown-item:before {
   font-family: MobiriseIcons !important;
@@ -2484,6 +2485,12 @@ a {
   height: 30px;
   width: 30px;
 }
+
+.display-55{
+  font-size: 1.2rem;
+  font-family: 'Muli-Regular';
+  line-height: 1.5;
+}
 .cid-sv7TTM4KUx svg.svg-gradient {
   position: absolute;
   opacity: 0;
@@ -2675,10 +2682,10 @@ a {
     margin-right: 30px;
   }
   .cid-se82wgZHLl .container-fluid {
-    padding: 2rem;
+    padding: -2rem;
   }
   .cid-se82wgZHLl .menu-container {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
   .cid-se82wgZHLl .mbr-list {
     margin-bottom: 20px;
@@ -2727,7 +2734,7 @@ a {
   color: #82b2e1 !important;
   fill: #82b2e1 !important;
 }
-.cid-se82wgZHLl .btn {
+.cid-se82wgZHLl .btn{
   background-color: rgba(255, 255, 255, 0.9) !important;
   color: #016391;
   padding-top: 0.8em;
@@ -2743,3 +2750,27 @@ a {
   border: solid white 2px;
 }
 
+.cid-svvUif1l6M .btn {
+  background-color: #016391 !important;
+  color:white;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  border-radius: 5px;
+  font-size: 0.8em;
+  padding-right: 0.8em;
+  padding-left: 0.8em;
+  /* display:flex; */
+  /* align-self: center;
+  width:25%;
+margin-left:37.5% !important; */
+}
+.cid-svvUif1l6M .btn:hover {
+  background-color: white !important;
+  color: #016391;
+  border: solid #016391 2px;
+}
+
+.cid-svvUif1l6M .mbr-figure{
+  width:100%;
+  text-align: center;
+}
