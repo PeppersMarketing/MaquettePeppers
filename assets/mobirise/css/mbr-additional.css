@@ -2294,12 +2294,12 @@ a {
   display:none;
 }
 
-.cid-svvTLE2qJJ .card:hover .ecranStatBlanc{  
+.cid-svvTLE2qJJ .card-inner3:hover .ecranStatBlanc{  
   display:block;  
 }
 
-.cid-svvTLE2qJJ .card:hover .ecranStatBleu{  
-    display:none;
+.cid-svvTLE2qJJ .card-inner3:hover .ecranStatBleu{  
+  display:none;
 }
 
 .cid-svvTLE2qJJ .card:hover .mbr-iconfont-2 {
@@ -2332,14 +2332,20 @@ a {
 .cid-svvTLE2qJJ .link {
   color: #006392;
 }
+.cid-svvTLE2qJJ .card-inner1, .cid-svvTLE2qJJ .card-inner2, .cid-svvTLE2qJJ .card-inner3{
+  transition: all 0.5s ease-out;
+}
 .cid-svvTLE2qJJ .card-inner1:hover {
   transform: scale(1.1);
+  transition: all 0.5s ease-out;
 }
 .cid-svvTLE2qJJ .card-inner2:hover {
   transform: scale(1.1);
+  transition: all 0.5s ease-out;
 }
 .cid-svvTLE2qJJ .card-inner3:hover {
   transform: scale(1.1);
+  transition: all 0.5ss ease-out;
 }
 .cid-svvTLE2qJJ .card-inner2 {
   position: relative;
